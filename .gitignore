@@ -1,13 +1,8 @@
 ﻿# ignore everything
-* 
-
-
-# our own implementation
-!*/properties
-
-# also don't ignore studio properties where the bulk of the work is
-bin/*
-!bin/idea.properties
+*
+/* 
+# don't ignore studio properties where the bulk of the work is
+!/bin/idea.properties
 
 # then
 !.gitignore
